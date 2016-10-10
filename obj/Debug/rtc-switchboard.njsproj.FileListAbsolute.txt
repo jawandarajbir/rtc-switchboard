@@ -1,0 +1,2 @@
+C:\git-repos\aa\forks\rtc-switchboard\obj\Debug\rtc-switchboard.njsprojResolveAssemblyReference.cache
+C:\git-repos\aa\forks\rtc-switchboard\bin\Microsoft.NodejsTools.WebRole.dll
