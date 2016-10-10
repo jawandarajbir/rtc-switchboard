@@ -16,6 +16,10 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include="bin\ChangeConfig.ps1" />
+    <Content Include="bin\download.ps1" />
+    <Content Include="bin\node.cmd" />
+    <Content Include="bin\setup_web.cmd" />
     <Content Include="docs.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -48,8 +52,11 @@
     <Compile Include="test\helpers\connect.js" />
     <Compile Include="test\helpers\server.js" />
     <Compile Include="test\helpers\socket.js" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="docs" />
     <Folder Include="examples" />
     <Folder Include="examples\handlers" />
